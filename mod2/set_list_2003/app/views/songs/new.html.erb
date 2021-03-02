@@ -1,0 +1,12 @@
+<%= form_for @song do |f| %>
+  <%= f.label "Title" %>
+  <%= f.text_field :title %>
+
+  <%= f.label "Length" %>
+  <%= f.number_field :length %>
+
+  <%= f.label "Play Count" %>
+  <%= f.number_field :play_count %>
+
+  <%= f.submit %>
+<% end %>
