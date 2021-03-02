@@ -1,0 +1,27 @@
+class: coffee_shops
+
+attributes:
+address (string)
+has_wifi (boolean)
+different_size_cups (array)
+current_number_of_drinks (integer)
+
+methods:
+move_location (modify the address attribute)
+install_wifi (set has_wifi to true)
+add_new_size_cup (add a new size cup to different_size_cups array)
+make_new_drink (add current_number_of_drinks by 1)
+
+class: starbucks on parker rd
+
+attributes:
+address: "1245 s parker rd"
+has_wifi: (false)
+different_size_cups: ["tall", "venti", "grande"]
+current_number_of_drinks: 12
+
+methods:
+move_location: "801924 s quincy st"
+install_wifi: has_wifi = true
+add_new_size_cup: ["tall", "venti", "grande", "mini"]
+make_new_drink: 13
